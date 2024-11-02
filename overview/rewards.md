@@ -35,14 +35,14 @@ The LP multiplier has no baseline and acts as activator of the XP multiplier. Th
 
 Below is a plot of this multiplier where we fix $$max(LP_{min.}, LP_{med.})=100000$$:
 
-<figure><img src="../.gitbook/assets/LPm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/LPm.png" alt=""><figcaption><p>LPm multiplier as obtained by the hyperbolic tangent.</p></figcaption></figure>
 
 #### Boosted LP size
 
 Finally, we use both multiplier to calculate the boosted user LP size ($$LP^b_i$$):
 
 $$
-LP^{b}_i = XP^m_i \times LP^m_i
+LP^{b}_i = XP^m_i \times LP^m_i = \left( 0.5 + 7.5 \times tanh \left( \frac{XP_i}{XP_{avg.}} \right) \right) \times tanh \left(  \frac{LP_i}{max(LP_{min}, LP_{med.})} \right)
 $$
 
 Our off-chain staking logic uses the boosted LP sizes to determine the share ($$s$$) of each user ($$i$$).
