@@ -17,7 +17,7 @@ $$
 XP^m_i = 0.5 + 7.5 \times tanh \left( \frac{XP_i}{XP_{avg.}} \right)
 $$
 
-The baseline of this multiplier is $$0.5$$, meaning that a Note without XP is obtaining this multiplier. We use a baseline in order to enable Notes the farming of Kerosene even if they start farming without Kerosene. The average XP ($$XP_{avg.}$$) is used as scaling parameter within the hyperbolic tangent. Users XP is given by $$XP_i$$.
+The baseline of this multiplier is $$0.5$$, meaning that a Note without XP is obtaining this multiplier. We use a baseline in order to enable Notes the farming of Kerosene even if they start farming without XP. The average XP ($$XP_{avg.}$$) is used as scaling parameter within the hyperbolic tangent. Users XP is given by $$XP_i$$.
 
 Below is a plot of this multiplier where we fix $$XP_{avg.}=100000$$:
 
@@ -31,7 +31,7 @@ $$
 LP^m_i = tanh \left(  \frac{LP_i}{max(LP_{min}, LP_{med.})} \right)
 $$
 
-The LP multiplier has no baseline and acts as activator of the XP multiplier. The scaling within the hyperbolic tangent is performed differently compared to the XP multiplier. Here, we use the maximum function that chooses either the minimum LP size ($$LP_{min.}=100000$$) or the $$50^{\text{th.}}$$ percentile of the LP size distribution (median LP size). We use the median LP size in order to prevent attacks from whales that could manipulate the average LP size by providing huge amounts of liquidity. to one or more of the LPs. However, in order to prevent sybil attack (e.g., staking many small positions into our staking contract to lower the median LP size), we use a minimum LP size and the maximum function between this minimum LP size and the median LP size. Hence, all user LP sizes are either scaled by the min LP size or the median LP size depending on which of both is larger. Users LP is given by $$LP_i$$.
+The LP multiplier has no baseline and acts as activator of the XP multiplier. The scaling within the hyperbolic tangent is performed differently compared to the XP multiplier. Here, we use the maximum function that chooses either the minimum LP size ($$LP_{min.}=100000$$) or the $$50^{\text{th.}}$$ percentile of the LP size distribution (median LP size, $$LP_{med.}$$). We use $$LP_{med.}$$ in order to prevent attacks from whales that could manipulate the average LP size by providing huge amounts of liquidity to one or more of our liquidity pools. To prevent sybil attacks (e.g., staking many small positions into our staking contract to lower $$LP_{med.}$$), we use a minimum LP size ($$LP_{min.}$$) and the maximum function between $$LP_{min.}$$ and $$LP_{med.}$$. Hence, all user LP sizes are either scaled by $$LP_{min.}$$ or $$LP_{med.}$$ depending on which of both is larger. Users LP is given by $$LP_i$$.
 
 Below is a plot of this multiplier where we fix $$max(LP_{min.}, LP_{med.})=100000$$:
 
