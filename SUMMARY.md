@@ -5,11 +5,12 @@
 * [What is DYAD ](README.md)
 * [Notes](overview/notes.md)
 * [Vaults](overview/vaults.md)
+* [XP](overview/xp.md)
+* [Rewards](overview/rewards.md)
+* [Stability Fee](overview/stability-fee.md)
 * [Liquidations](overview/liquidations.md)
 * [Redemptions](overview/redemptions.md)
 * [Governance](overview/governance.md)
-* [Fees](overview/fees.md)
-* [XP](overview/xp.md)
 
 ## $Kerosene
 
