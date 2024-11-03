@@ -2,7 +2,7 @@
 
 #### Introduction
 
-We reward users that provide liquidity to one of our whitelisted liquidity pools (LP) with Kerosene rewards. Those rewards should end up in the hands of participants that bring value to the growth of our ecosystem. Hence we use two different metrics in order to calculate an effective LP size that is used to calculate the amount of rewards each user is supposed to obtain:
+Users that provide liquidity in one of our whitelisted liquidity pools (LP) are rewarded with Kerosene. Two different metrics are obtained to calculate the ''effective'' LP size, which in turn is used to determine the amount of rewards per user.
 
 * XP
 * LP size
