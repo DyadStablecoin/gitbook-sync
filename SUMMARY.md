@@ -32,3 +32,4 @@
 * [Contracts](info/contracts.md)
 * [Security](info/security.md)
 * [Logo's](info/logos.md)
+* [Coinmarketcap](info/coinmarketcap.md)
