@@ -12,4 +12,4 @@ XP boosts your yield in the dyad ecosystem. i.e., when a noteholder provides liq
 
 To prevent ''runaway'' XP positions on the leaderboard where top players have a monopoly on yield earnings, XP counts for all users are subject to halvings. Halvings are executed every 5 weeks, which means all users can expect XP decay of 96.8% over a period of 6 months (equally across the board).\
 \
-In other words: A new user is able reach up to 96.8% ''charge'' relative to their competiton in 7.5 months (all else equal).
+In other words: A new user is able reach up to 96.8% ''charge'' relative to their competiton in 6 months (all else equal).
