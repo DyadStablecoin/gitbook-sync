@@ -18,7 +18,7 @@ Each user obtains XP by depositing Kerosene into their note. **The XP multiplier
 \
 For maximum Kerosene rewards a Liquidity Provider should:
 
-* Continuously accumulate XP by via Kerosene deposits
+* Continuously accumulate XP via their deposited Kerosene
 * Provide an above average dollar amount of liquidity.\
   \
   \
