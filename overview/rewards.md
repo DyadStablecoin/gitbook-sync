@@ -1,3 +1,10 @@
+---
+description: >-
+  TL;DR: Earning rewards for providing liquidity is PvP, both in terms of XP and
+  LP size. Players will always want to own more XP and provide more liquidity vs
+  the rest.
+---
+
 # Rewards
 
 #### Introduction
@@ -13,6 +20,7 @@ For maximum Kerosene rewards a Liquidity Provider should:
 
 * Continuously accumulate XP by via Kerosene deposits
 * Provide an above average dollar amount of liquidity.\
+  \
   \
   (lp stats and calculator coming soon)
 
