@@ -14,6 +14,6 @@ The secret sauce of DYAD is that the excess value of all collateral in the syste
 
 Users will always need at least one dollar of collateral for every DYAD they mint, but, if they want, may use any amount of the utility token to bring their collateralization ratio above the required 150%.
 
-Via the redirection of idle collateral to active ecosystem participants, DYAD can be Capital Efficient, Stable and Decentralized at the same time. The Stablecoin Trilemma is now solved.\
+Via the redirection of idle collateral to active ecosystem participants, DYAD can be Capital Efficient, Stable and Decentralized at the same time. \
 \
 \
